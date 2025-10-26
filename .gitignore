@@ -1,0 +1,88 @@
+# =========================================
+# PYTHON ENVIRONMENT & DEPENDENCIES
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+
+# Virtual environment
+venv/
+env/
+.venv/
+*.env
+
+# Jupyter / temp outputs
+.ipynb_checkpoints/
+*.sqlite3
+*.db
+
+# =========================================
+# UNITY PROJECT FILES
+# =========================================
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+
+# Asset meta files are required, keep them
+# But ignore anything auto-generated or cached
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Unity Crash and Debug Logs
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# Visual Studio / JetBrains Rider
+.vscode/
+.idea/
+*.csproj.user
+*.sln.iml
+
+# =========================================
+# OS FILES
+# =========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================================
+# OTHER
+# =========================================
+# Python cache
+*.egg-info/
+dist/
+build/
+*.spec
+
+# =========================================
+# SAFE TO KEEP
+# (UnityMainThreadDispatcher.cs, Gesture*.cs, UIManager.cs, etc.)
+# =========================================
